@@ -4,17 +4,18 @@ import { PiHamburgerFill } from "react-icons/pi";
 import { IoClose } from "react-icons/io5";
 import { _NavBarData } from '@/utils/_index';
 import Link from 'next/link';
+import TitleAnimation from './TitleAnimation';
 
 
 const Navbar = () => { 
   const [active, setActive] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between py-4 px-6 bg-white shadow-md relative z-50">
+    <nav className="flex items-center justify-between py-4 px-6 relative z-50">
       {/* Logo */}
       <div>
         <Link href={'/'}>
-        <h2 className="text-3xl font-semibold hover:scale-100 text-[rgb(124,124,179)]">Chalat Rahul</h2>
+        <h2 className="text-3xl font-semibold hover:scale-100 text-[rgb(124,124,179)]"><TitleAnimation title='Chalat Rahul' /></h2>
         </Link>
       </div>
 

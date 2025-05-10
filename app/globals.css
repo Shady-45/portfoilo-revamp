@@ -24,3 +24,13 @@
   src: var(--font-poppins);
   
 }
+/* In your global CSS file */
+.vertical-timeline.vertical-timeline-custom-line::before {
+  background: #5b5bae !important; /* Timeline line color */
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+    padding: 1rem !important;
+  }
+}

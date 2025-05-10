@@ -21,10 +21,6 @@ export const _NavBarData = [
         title:"Experience",
         link:"/experience"
     },
-    {
-        title:"Contact",
-        link:"/contact"
-    },
 ]
 
 export const TechData = [
@@ -65,3 +61,4 @@ export const TechData = [
         techImg:Reduxicon    
     },
 ]
+
