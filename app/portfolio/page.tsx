@@ -1,5 +1,4 @@
 import React from 'react'
-import SectionWrapper from '../components/SectionWrapper'
 import ProjectContainer from '../components/ProjectContainer'
 import Img from '../../public/tech/docker.png'
 const Portfolio = () => {

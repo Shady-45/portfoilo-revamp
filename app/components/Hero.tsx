@@ -11,7 +11,7 @@ const Hero = () => {
     {/* Text Section */}
     <div className="flex flex-col items-end gap-5 w-[30%] ">
       <div>
-        <h1 className="text-4xl font-bold">Hi, I'm</h1>
+        <h1 className="text-4xl font-bold">{`Hi, I'm`}</h1>
         <h1 className="text-5xl font-extrabold">Rahul</h1>
       </div>
 

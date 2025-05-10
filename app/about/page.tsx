@@ -27,8 +27,8 @@ const About = () => {
       <div className="flex flex-col items-center md:items-start md:gap-2 w-xl text-justify px-4">
         <h1 className="text-5xl text-[#5b5bae] font-bold">About me.</h1>
         <p>
-        I'm a software engineer and cinephile who builds frontend applications. My passion lies at the intersection of technology and visual storytelling. I constantly seek to deepen my computer science expertise. Every day is an opportunity to grow in this evolving digital landscape.
-        </p>
+        {`I'm a software engineer and cinephile who builds frontend applications. My passion lies at the intersection of technology and visual storytelling. I constantly seek to deepen my computer science expertise. Every day is an opportunity to grow in this evolving digital landscape.
+`}        </p>
         <button className="bg-[#5b5bae] p-2 text-white font-bold rounded-md shadow-lg cursor-pointer">
           Download Resume
         </button>
