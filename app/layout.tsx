@@ -18,7 +18,7 @@ const poppins = Poppins({
   display: 'swap',
 })
 export const metadata: Metadata = {
-  title: "Ch Rahul",
+  title: "Chalat Rahul",
   description: "Lets Go!...",
 };
 
