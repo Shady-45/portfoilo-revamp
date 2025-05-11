@@ -14,28 +14,37 @@ const ProjectContainer:React.FC<ProjectContainerProps> = ({img,projectBuild,proj
   return (
     <motion.div
     whileHover={{
-        scale: 1.03,
-        rotateZ: 0.5, // subtle tilt
-        transition: { type: 'spring', stiffness: 300 }
-      }}
-      className="relative overflow-hidden rounded-xl shadow-lg"
-    >
-    <article className='h-75 w-80 border-2 border-gray-200 border-solid rounded-lg shadow-2xl p-2'>
-        <div>
-          <Image src={img} alt={projectTitle} className='w-50 h-50 m-auto object-cover' />
-        </div>
-      <div className='flex gap-2 items-start'>
-        <h3 className='text-[#5b5bae] font-bold text-lg'>{projectTitle}</h3>
-        <a href={projectLink}>
-        <FaExternalLinkAlt className='text-lg' />
-
+      scale: 1.03,
+      rotateZ: 0.5,
+      transition: { type: 'spring', stiffness: 300 },
+    }}
+    className="relative overflow-hidden rounded-xl shadow-lg"
+  >
+    <article className="h-85 w-95 border-2 border-gray-200 rounded-lg shadow-2xl p-4">
+      <div>
+        <Image
+          src={img}
+          alt={projectTitle}
+          className="w-full h-40 object-cover rounded-md mx-auto"
+        />
+      </div>
+      
+      <div className="flex items-center gap-2 mt-3">
+        <h3 className="text-[#5b5bae] font-bold text-lg">{projectTitle}</h3>
+        <a href={projectLink} target="_blank" rel="noopener noreferrer">
+          <FaExternalLinkAlt className="text-lg" />
         </a>
       </div>
-      <p className='text-[@5b5bae] font-extrabold text-shadow-md'>{projectDesc}</p>
-      <p className='text-gray-500 font-bold'><span className='text-black font-extrabold'>Build Info: </span>{projectBuild.join(', ')}</p>
+  
+      <p className="text-[#5b5bae] font-semibold mt-1">{projectDesc}</p>
+  
+      <p className="text-gray-600 font-semibold mt-2">
+        <span className="text-black font-bold">Build Info: </span>
+        {projectBuild.join(', ')}
+      </p>
     </article>
-
-    </motion.div>
+  </motion.div>
+  
   )
 }
 
