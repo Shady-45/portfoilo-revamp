@@ -37,22 +37,6 @@ const Portfolio  = () => {
       Frontend Developemt, App Developemt
     </p>
   </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    date="Sparkles Feb - May 2022"
-    contentStyle={{ background: '#f5f5f5', color: '#5b5bae' }}
-    iconStyle={{ background: '#5b5bae', color: '#fff' }}
-    icon = {<FaCode/>}
-
-  >
-    <h3 className="vertical-timeline-element-title">Web Developer Intern</h3>
-    <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-    <p>
-      Frontend Development
-    </p>
-  </VerticalTimelineElement>
-  
- 
 </VerticalTimeline>
     </div>
   )
