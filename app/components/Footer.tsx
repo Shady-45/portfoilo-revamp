@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
 
 const Footer = () => {
-  return (
+  return (  
     <div className="fixed bottom-0 left-0 z-50 w-full md:w-auto md:bottom-[160px] md:left-[-100px] md:rotate-90">
       <div className="flex justify-center items-center gap-3 bg-white/90 dark:bg-gray-900/90 py-3 px-4 md:bg-transparent md:dark:bg-transparent md:py-0 md:px-0">
         {/* Mobile/Tablet: Horizontal layout */}

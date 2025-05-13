@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <div className="py-10 px-10">
+        <div className="p-2 md:py-10 md:px-10">
         <Navbar />
         {children}
         <Footer/>

@@ -5,11 +5,12 @@ import CovidImg from '../../public/covid-info.jpg'
 import PokemonImg from '../../public/pokemon.jpg'
 import PortfolioImg from '../../public/portfolio.jpg'
 import IndiecryptImg from '../../public/Indiecrypt.jpg'
+import TitleAnimation from '../components/TitleAnimation'
 const Portfolio = () => {
   return (
     <>
       <main className='flex  flex-col items-center justify-center'>
-        <h1 className='text-[#5b5bae] mt-[4rem] font-bold text-5xl'>My projects.</h1>
+        <h1 className='text-[#5b5bae] mt-[4rem] font-bold text-3xl md:text-5xl'><TitleAnimation title='My Projects.'/></h1>
         <section className='mt-5 mb-10 flex gap-10 flex-wrap px-10 items-center justify-center'>
           <ProjectContainer
           img={BusinessImg}
